@@ -1,0 +1,101 @@
+{
+  "100001": {
+    "id": "100001",
+    "nextId": 100002,
+    "speakerId": 100001,
+    "content": "111",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100002": {
+    "id": "100002",
+    "nextId": 100003,
+    "speakerId": 100002,
+    "content": "222",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100003": {
+    "id": "100003",
+    "nextId": 100004,
+    "speakerId": 100001,
+    "content": "333",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100004": {
+    "id": "100004",
+    "nextId": 100005,
+    "speakerId": 100002,
+    "content": "444",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100005": {
+    "id": "100005",
+    "nextId": 100006,
+    "speakerId": 100001,
+    "content": "555",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100006": {
+    "id": "100006",
+    "nextId": 100007,
+    "speakerId": 100002,
+    "content": "666",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100007": {
+    "id": "100007",
+    "nextId": 100008,
+    "speakerId": 100001,
+    "content": "777",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100008": {
+    "id": "100008",
+    "nextId": 100009,
+    "speakerId": 100002,
+    "content": "888",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100009": {
+    "id": "100009",
+    "nextId": 100010,
+    "speakerId": 100001,
+    "content": "999",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100010": {
+    "id": "100010",
+    "nextId": 100011,
+    "speakerId": 100002,
+    "content": "aaa",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  },
+  "100011": {
+    "id": "100011",
+    "nextId": 0,
+    "speakerId": 100001,
+    "content": "bbb",
+    "triggerType": 0,
+    "triggerId": 0,
+    "triggerParam": null
+  }
+}
