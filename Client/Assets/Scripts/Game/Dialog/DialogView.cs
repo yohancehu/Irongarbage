@@ -42,6 +42,10 @@ public class DialogView : MonoBehaviour
             DialogManager.Instance.DestroyView();
             return;
         }
+        if(_currentData.triggerType != 0)
+        {
+            DialogManager.Instance.DialogTriggerEvent((DialogTriggerEventType)_currentData.triggerType, _currentData.triggerParam);
+        }
         ShowDialog((uint)_currentData.nextId);
     }
 
