@@ -9,8 +9,12 @@ public class DialogView : MonoBehaviour
 {
     public Text ContentText;
     public Text NameText;
+    public GameObject BranchView;
+    public GameObject BranchBtnPrefab;
+    public Transform BranchRoot;
 
     private dialogconfig _currentData;
+    private List<BranchBtnView> _branchBtns = new List<BranchBtnView>();
 
     public void StartDialog(uint id)
     {
@@ -28,6 +32,7 @@ public class DialogView : MonoBehaviour
         ContentText.text = _currentData.content;
         var unit = TableManager.Instance.Get<unitconfig>((uint)_currentData.speakerId);
         NameText.text = unit.name;
+        TryShowBranchView();
     }
 
     public void OnClickBgButton()
@@ -38,5 +43,33 @@ public class DialogView : MonoBehaviour
             return;
         }
         ShowDialog((uint)_currentData.nextId);
+    }
+
+
+    public void TryShowBranchView()
+    {
+        if(_currentData.branch == null || _currentData.branch.Count == 0)
+        {
+            foreach (var btn in _branchBtns)
+            {
+                if (btn != null)
+                {
+                    btn.Dispose();
+                }
+            }
+            _branchBtns.Clear();
+            BranchView.SetActive(false);
+            return;
+        }
+
+        BranchView.SetActive(true);
+        foreach (var branch in _currentData.branch)
+        {
+            GameObject gob = Instantiate(BranchBtnPrefab, BranchRoot);
+            gob.SetActive(true);
+            BranchBtnView view = gob.GetComponent<BranchBtnView>();
+            view.SetButton(branch);
+            _branchBtns.Add(view);
+        }
     }
 }

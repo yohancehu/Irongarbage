@@ -3,7 +3,7 @@
     "id": "100001",
     "nextId": 100002,
     "speakerId": 100001,
-    "content": "111",
+    "content": "豆腐干士大夫",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -12,7 +12,7 @@
     "id": "100002",
     "nextId": 100003,
     "speakerId": 100002,
-    "content": "222",
+    "content": "dfsgg",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -21,10 +21,24 @@
     "id": "100003",
     "nextId": 100004,
     "speakerId": 100001,
-    "content": "333",
+    "content": "dfg",
     "triggerType": 0,
     "triggerId": 0,
-    "triggerParam": null
+    "triggerParam": null,
+    "branch": [
+      {
+        "description": "a.进入A",
+        "triggerType": 1,
+        "triggerId": 1,
+        "triggerParam": "100006"
+      },
+      {
+        "description": "b.进入B",
+        "triggerType": 2,
+        "triggerId": 1,
+        "triggerParam": "超级玛丽"
+      }
+    ]
   },
   "100004": {
     "id": "100004",
@@ -39,7 +53,7 @@
     "id": "100005",
     "nextId": 100006,
     "speakerId": 100001,
-    "content": "555",
+    "content": "豆腐干豆腐干",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -48,7 +62,7 @@
     "id": "100006",
     "nextId": 100007,
     "speakerId": 100002,
-    "content": "666",
+    "content": "了",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -57,7 +71,7 @@
     "id": "100007",
     "nextId": 100008,
     "speakerId": 100001,
-    "content": "777",
+    "content": "jhgjikl",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -66,7 +80,7 @@
     "id": "100008",
     "nextId": 100009,
     "speakerId": 100002,
-    "content": "888",
+    "content": "是顶顶顶顶顶",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -75,7 +89,7 @@
     "id": "100009",
     "nextId": 100010,
     "speakerId": 100001,
-    "content": "999",
+    "content": "35乳房个人",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -84,7 +98,7 @@
     "id": "100010",
     "nextId": 100011,
     "speakerId": 100002,
-    "content": "aaa",
+    "content": "第三方",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
@@ -93,7 +107,7 @@
     "id": "100011",
     "nextId": 0,
     "speakerId": 100001,
-    "content": "bbb",
+    "content": "给合法合规",
     "triggerType": 0,
     "triggerId": 0,
     "triggerParam": null
