@@ -5,8 +5,9 @@ using TableDefines;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogView : MonoBehaviour
+public class DialogView : UIViewBase
 {
+    public Button BgButton;
     public Text ContentText;
     public Text NameText;
     public GameObject BranchView;
@@ -15,6 +16,19 @@ public class DialogView : MonoBehaviour
 
     private dialogconfig _currentData;
     private List<BranchBtnView> _branchBtns = new List<BranchBtnView>();
+
+    public override void OnCreate(params object[] args)
+    {
+        base.OnCreate(args);
+        ContentText = transform.Find("Frame/ContentText").GetComponent<Text>();
+        NameText = transform.Find("Frame/NameText").GetComponent<Text>();
+        BranchBtnPrefab = transform.Find("BranchView/BranchBtnPrefab").gameObject;
+        BranchView = transform.Find("BranchView").gameObject;
+        BranchRoot = transform.Find("BranchView/BranchRoot");
+        BgButton = transform.Find("Bg").GetComponent<Button>();
+
+        BgButton.onClick.AddListener(OnClickBgButton);
+    }
 
     public void StartDialog(uint id)
     {

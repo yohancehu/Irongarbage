@@ -31,4 +31,12 @@ namespace TableDefines
         public string name;
         public string picture;
     }
+    public class uiconfig : TableSrc
+    {
+        public string id;
+        public int type;
+        public string className;
+        public string prefab;
+        public int layer;
+    }
 }

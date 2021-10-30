@@ -1,0 +1,9 @@
+{
+  "1": {
+    "id": "1",
+    "type": 1,
+    "className": "DialogView",
+    "prefab": "DialogView",
+    "layer": 1
+  }
+}
