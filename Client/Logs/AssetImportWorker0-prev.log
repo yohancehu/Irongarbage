@@ -12,112 +12,112 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53769
+52379
 Successfully changed project path to: /Users/m/Irongarbage/Client
 /Users/m/Irongarbage/Client
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/m/Irongarbage/Client/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-21 15:36:14.639 Unity[2115:69435] (null) preferred device: Apple M1 (high power)
-2021-11-21 15:36:14.639 Unity[2115:69435] Metal devices available: 1
-2021-11-21 15:36:14.639 Unity[2115:69435] 0: Apple M1 (high power)
-2021-11-21 15:36:14.639 Unity[2115:69435] Using device Apple M1 (high power)
+2021-11-23 21:18:33.823 Unity[1978:51082] (null) preferred device: Apple M1 (high power)
+2021-11-23 21:18:33.823 Unity[1978:51082] Metal devices available: 1
+2021-11-23 21:18:33.823 Unity[1978:51082] 0: Apple M1 (high power)
+2021-11-23 21:18:33.823 Unity[1978:51082] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56115
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56978
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002172 seconds.
+Registered in 0.001841 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 50.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.232 seconds
+- Completed reload, in  2.265 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2232ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (2265ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (850ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (171ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (487ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (31ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003551 seconds.
+Registered in 0.003544 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 54.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.274 seconds
+- Completed reload, in  2.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2276ms)
-		BeginReloadAssembly (253ms)
+	ReloadAssembly (2511ms)
+		BeginReloadAssembly (265ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1934ms)
-			LoadAssemblies (198ms)
+		EndReloadAssembly (2150ms)
+			LoadAssemblies (212ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (339ms)
+			SetupTypeCache (365ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1043ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1173ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (189ms)
-				ProcessInitializeOnLoadAttributes (750ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (860ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2259 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.5 MB.
-System memory in use after: 211.4 MB.
+Unloading 2260 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.7 MB.
+System memory in use after: 211.7 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2693.
-Total: 1.725000 ms (FindLiveObjects: 0.136292 ms CreateObjectMapping: 0.043625 ms MarkObjects: 1.419000 ms  DeleteObjects: 0.125333 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 2.524250 ms (FindLiveObjects: 0.325625 ms CreateObjectMapping: 0.074417 ms MarkObjects: 1.968125 ms  DeleteObjects: 0.154333 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -131,576 +131,701 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/电路迷宫场景.unity
-  artifactKey: Guid(9a14bf0d8ceec42e6891d71928092dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/电路迷宫场景.unity using Guid(9a14bf0d8ceec42e6891d71928092dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45ee2eadf587910c989dc68e97740e6') in 0.020300 seconds 
-  Import took 0.023871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.052969 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabadbfe0b189909f349357872f4d0ea') in 0.012223 seconds 
-  Import took 0.056210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2082.135019 seconds.
-  path: Assets/Scenes/电路迷宫场景.unity
-  artifactKey: Guid(9a14bf0d8ceec42e6891d71928092dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/电路迷宫场景.unity using Guid(9a14bf0d8ceec42e6891d71928092dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e159841afa093599b0c05873f08ef5') in 0.005583 seconds 
-  Import took 0.018069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.997406 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d17b4553ae13f2ddcf6700d4fbc8f5f') in 0.001717 seconds 
-  Import took 0.006086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000649 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d17b4553ae13f2ddcf6700d4fbc8f5f') in 0.001087 seconds 
-  Import took 0.004337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.604399 seconds.
-  path: Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png
-  artifactKey: Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png using Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edc248167b11eb27ec0d4b5fdb20f82') in 0.685169 seconds 
-  Import took 0.689055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Resources/焊接美术资源/笔.png
-  artifactKey: Guid(533fe1e0b0b014592a1ade40cf0e8d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/笔.png using Guid(533fe1e0b0b014592a1ade40cf0e8d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5513020165bc6b68efa4df5e7e5650') in 0.013874 seconds 
-  Import took 0.016951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/Resources/焊接美术资源/桌面.png
-  artifactKey: Guid(b69b647aad33c462ab26a1bb85277ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/桌面.png using Guid(b69b647aad33c462ab26a1bb85277ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a934105638fa8c6787cafda53ffd39a1') in 0.010686 seconds 
-  Import took 0.014286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.832476 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_0.asset
-  artifactKey: Guid(b74820ff9cdf844939804c8a1c166b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_0.asset using Guid(b74820ff9cdf844939804c8a1c166b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb50aab3049540ab172ad3a89beefd2') in 0.645740 seconds 
-  Import took 0.651121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_29.asset
-  artifactKey: Guid(8966798e430674657be8e23c34c4e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_29.asset using Guid(8966798e430674657be8e23c34c4e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c36100e76b29510148d3e4c06e327b') in 0.006011 seconds 
-  Import took 0.009253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_14.asset
-  artifactKey: Guid(1538b25b750194e6db463b01526bfdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_14.asset using Guid(1538b25b750194e6db463b01526bfdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728954ffc5cb912a8557289b14a29014') in 0.004749 seconds 
-  Import took 0.007817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_1.asset
-  artifactKey: Guid(7a6da6ba165694f7c87db0ab2250731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_1.asset using Guid(7a6da6ba165694f7c87db0ab2250731d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90cdac77012fcada6faa61b62240083') in 0.005075 seconds 
-  Import took 0.007820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_15.asset
-  artifactKey: Guid(d713e2d1841db46b0864e53f2adc07f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_15.asset using Guid(d713e2d1841db46b0864e53f2adc07f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daaee0bf6addb924f4b6c984cb2969c') in 0.006481 seconds 
-  Import took 0.009637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000798 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_24.asset
-  artifactKey: Guid(86464bdf974c34d51baf317c3b8e1678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_24.asset using Guid(86464bdf974c34d51baf317c3b8e1678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6938ac7381d6663720f582c8ec6118ff') in 0.006654 seconds 
-  Import took 0.010061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_33.asset
-  artifactKey: Guid(dd01508620f5142f9b97d47985c54a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_33.asset using Guid(dd01508620f5142f9b97d47985c54a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd166acd541faab7b7a499d217692a6b6') in 0.005067 seconds 
-  Import took 0.008012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_35.asset
-  artifactKey: Guid(fe585f2b4d4b04a8e945acbd38e4b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_35.asset using Guid(fe585f2b4d4b04a8e945acbd38e4b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07fbd435be07306fdc32077980c2e09') in 0.004861 seconds 
-  Import took 0.007480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_39.asset
-  artifactKey: Guid(57b1e06a4840745ac854c877e14e3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_39.asset using Guid(57b1e06a4840745ac854c877e14e3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242d5c3b7abd2a6ea55a5c6a62690aa2') in 0.004837 seconds 
-  Import took 0.007558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_22.asset
-  artifactKey: Guid(a71a4ae96588b459e9e26c054035ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_22.asset using Guid(a71a4ae96588b459e9e26c054035ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f859dda4e9f73ea18679832e9ef40aa6') in 0.004770 seconds 
-  Import took 0.007464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_41.asset
-  artifactKey: Guid(70d54d1bd249748fc9557fa4a2daa70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_41.asset using Guid(70d54d1bd249748fc9557fa4a2daa70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5125645e2d66746bec2f96956fd63a') in 0.005006 seconds 
-  Import took 0.007661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_38.asset
-  artifactKey: Guid(7135ad35522a84e77b88e9c12572e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_38.asset using Guid(7135ad35522a84e77b88e9c12572e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbcd8320e5ac550123e2c612b93f263') in 0.004459 seconds 
-  Import took 0.007303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_11.asset
-  artifactKey: Guid(4e617527700b742d783b12328df0814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_11.asset using Guid(4e617527700b742d783b12328df0814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbd1cac458a3f818c4a2b6c9b90189d') in 0.004489 seconds 
-  Import took 0.007221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001638 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_2.asset
-  artifactKey: Guid(c105094b0674d4fc383533383783af42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_2.asset using Guid(c105094b0674d4fc383533383783af42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15ce332f80b9e900fec43eb6d61ee33') in 0.005010 seconds 
-  Import took 0.007746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_34.asset
-  artifactKey: Guid(c1ffeffff5d7a4faa8fa682ae8e68c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_34.asset using Guid(c1ffeffff5d7a4faa8fa682ae8e68c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4eb8c7154360e7ffb0f1005e671751') in 0.004449 seconds 
-  Import took 0.007129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_17.asset
-  artifactKey: Guid(148027940d2764d38b32bacf9e48c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_17.asset using Guid(148027940d2764d38b32bacf9e48c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021ecab5edf22eeef6adcc53afcb73db') in 0.004327 seconds 
-  Import took 0.006792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_28.asset
-  artifactKey: Guid(6c5930d540e9b4c4ca0ffe83baa83ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_28.asset using Guid(6c5930d540e9b4c4ca0ffe83baa83ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faada33542b0333af301c3839212f5c') in 0.004064 seconds 
-  Import took 0.006415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_26.asset
-  artifactKey: Guid(c64eb322c41f5460583c48db3095835b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_26.asset using Guid(c64eb322c41f5460583c48db3095835b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a76f02cf553426cddadd2a5dde6e2a9') in 0.004752 seconds 
-  Import took 0.007295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_9.asset
-  artifactKey: Guid(45e789c437bcc49918c0fd6179212290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_9.asset using Guid(45e789c437bcc49918c0fd6179212290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8799e9fe5a8fc33859995497a2f84a35') in 0.005193 seconds 
-  Import took 0.007663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_7.asset
-  artifactKey: Guid(95693a5871b6345e985199c0c3395147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_7.asset using Guid(95693a5871b6345e985199c0c3395147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4266702adf37f29077e5fad499774418') in 0.005029 seconds 
-  Import took 0.007732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_10.asset
-  artifactKey: Guid(904a22e87cc234ff2b9a2423c8286e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_10.asset using Guid(904a22e87cc234ff2b9a2423c8286e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f488aedfb7a33fc009e79c7a152d379') in 0.004658 seconds 
-  Import took 0.007131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_20.asset
-  artifactKey: Guid(cbe2c53585c3c450d9e16be52e96d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_20.asset using Guid(cbe2c53585c3c450d9e16be52e96d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb85a4fd65e251f99cd23eeeccdad20e') in 0.005004 seconds 
-  Import took 0.007526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_40.asset
-  artifactKey: Guid(823d815110e8b48f5bac410c066faafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_40.asset using Guid(823d815110e8b48f5bac410c066faafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65d06f14f33636146292a2d40c2e7f9') in 0.004376 seconds 
-  Import took 0.006920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_19.asset
-  artifactKey: Guid(eaf7bbc5c05604618933019f5dba8253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_19.asset using Guid(eaf7bbc5c05604618933019f5dba8253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b9554cf409fb2349831923fc35415c') in 0.004816 seconds 
-  Import took 0.007424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_23.asset
-  artifactKey: Guid(1c4c0761d799a49ccac403a56c0a762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_23.asset using Guid(1c4c0761d799a49ccac403a56c0a762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2744e05aa60a2f47b308f8964b9999be') in 0.004157 seconds 
-  Import took 0.006589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_36.asset
-  artifactKey: Guid(7a99efdbec1464a5eb4550116031a2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_36.asset using Guid(7a99efdbec1464a5eb4550116031a2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1de93f2fbc883e75110f521991ea2e') in 0.004523 seconds 
-  Import took 0.006825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_27.asset
-  artifactKey: Guid(efff52997c9874f1cbb5d35b434e0e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_27.asset using Guid(efff52997c9874f1cbb5d35b434e0e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496a8c6d479a3fc11bcc12c0155e4e6f') in 0.004631 seconds 
-  Import took 0.007308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_44.asset
-  artifactKey: Guid(7e1f7d904fb9041a4be1b804da929f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_44.asset using Guid(7e1f7d904fb9041a4be1b804da929f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34f650e924242c4a1705f71a6097e86') in 0.004572 seconds 
-  Import took 0.006870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_3.asset
-  artifactKey: Guid(78ff677d6a8af4b3f8f3d54bfc26db68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_3.asset using Guid(78ff677d6a8af4b3f8f3d54bfc26db68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8928face7e2592eddbd07c97a067e433') in 0.004580 seconds 
-  Import took 0.007003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_30.asset
-  artifactKey: Guid(29b05de60c4644e2aab26eb7c5c6baab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_30.asset using Guid(29b05de60c4644e2aab26eb7c5c6baab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9d03b23c67dba24e8e671b83ec5c20') in 0.003913 seconds 
-  Import took 0.006702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_42.asset
-  artifactKey: Guid(bbbf36676944145f49273177dd2c2e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_42.asset using Guid(bbbf36676944145f49273177dd2c2e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d10eb597cca72c4e42c3eda4b54f69e') in 0.004431 seconds 
-  Import took 0.006866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_31.asset
-  artifactKey: Guid(609dc2e00e25c42888bf35301b551029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_31.asset using Guid(609dc2e00e25c42888bf35301b551029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2e33575a8f53ad0f1561193433e6f') in 0.004516 seconds 
-  Import took 0.007031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_6.asset
-  artifactKey: Guid(571fcddf43880414985a3ea6b3b4a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_6.asset using Guid(571fcddf43880414985a3ea6b3b4a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8fd9dab039f23c8e40506ef3cf2afe') in 0.004148 seconds 
-  Import took 0.006834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_43.asset
-  artifactKey: Guid(83f23bbc22a4f418795fe28d3a54eefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_43.asset using Guid(83f23bbc22a4f418795fe28d3a54eefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a72d365cfe37b8a5c208ba2a1e1efc3') in 0.005989 seconds 
-  Import took 0.008629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_21.asset
-  artifactKey: Guid(da18606876e08433594979510c7c7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_21.asset using Guid(da18606876e08433594979510c7c7b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3638ee892b6ec0a2c95f99681ba2913') in 0.004347 seconds 
-  Import took 0.007336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_16.asset
-  artifactKey: Guid(465a4f9e26b2f48a995543b00bda75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_16.asset using Guid(465a4f9e26b2f48a995543b00bda75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672bde321b6311539f541fedd0cae5eb') in 0.005294 seconds 
-  Import took 0.008167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_25.asset
-  artifactKey: Guid(0ed7e11bf4a914a9cb9467a2c4713e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_25.asset using Guid(0ed7e11bf4a914a9cb9467a2c4713e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e058ae41f56f651368f5eaa700ac2f05') in 0.004309 seconds 
-  Import took 0.007001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_32.asset
-  artifactKey: Guid(8e1e3d72f7a2c4bd8b1be39166366cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_32.asset using Guid(8e1e3d72f7a2c4bd8b1be39166366cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8448da63244c150c0517599e37e0342e') in 0.006785 seconds 
-  Import took 0.010037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_18.asset
-  artifactKey: Guid(cef737bbbc3bf45928126a21078d6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_18.asset using Guid(cef737bbbc3bf45928126a21078d6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760828c3cde1e76584f1a5cabf59c92') in 0.004668 seconds 
-  Import took 0.007494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_13.asset
-  artifactKey: Guid(2a7a14c28b7f54a5ba47049ad3016b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_13.asset using Guid(2a7a14c28b7f54a5ba47049ad3016b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3581f6700900cbfc9b47178f2309a48d') in 0.007630 seconds 
-  Import took 0.010755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_4.asset
-  artifactKey: Guid(1937e61f1578b400091706af637d07f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_4.asset using Guid(1937e61f1578b400091706af637d07f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8935390ed1711417d0cf09cba61db378') in 0.004636 seconds 
-  Import took 0.007173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_5.asset
-  artifactKey: Guid(65615d8df495147e89c818c279088bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_5.asset using Guid(65615d8df495147e89c818c279088bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42afa2f47d8f5d17f34838d5ab8112f') in 0.005687 seconds 
-  Import took 0.008159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_37.asset
-  artifactKey: Guid(173fc729f063f4706810b257fce71ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_37.asset using Guid(173fc729f063f4706810b257fce71ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153338c51306b9f241fd01c77133116c') in 0.004509 seconds 
-  Import took 0.007229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_8.asset
-  artifactKey: Guid(414c3d6ce555f450989a1026096c2687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_8.asset using Guid(414c3d6ce555f450989a1026096c2687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250f18ceb1d70ac2cd6282686b2d130') in 0.004781 seconds 
-  Import took 0.007419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_12.asset
-  artifactKey: Guid(8df65eb7ed0c94479a3d6a24a520d5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Tilemap/Game Boy Advance - Metroid Zero Mission - Kraid Tiles_12.asset using Guid(8df65eb7ed0c94479a3d6a24a520d5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be52cf89e4292b88eb9d0484be7dd4d3') in 0.006133 seconds 
-  Import took 0.008711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.627556 seconds.
-  path: Assets/Resources/焊接美术资源/桌面.png
-  artifactKey: Guid(b69b647aad33c462ab26a1bb85277ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/桌面.png using Guid(b69b647aad33c462ab26a1bb85277ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484bc70b5f4232cece3b5a82d8a7099a') in 0.011166 seconds 
-  Import took 0.014065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.100163 seconds.
-  path: Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png
-  artifactKey: Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png using Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82111d27926f18d5508895caf1db14fe') in 0.010767 seconds 
-  Import took 0.014078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.978238 seconds.
-  path: Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png
-  artifactKey: Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png using Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad159bb89856fb8efa4196a74a7615ce') in 0.033256 seconds 
-  Import took 0.062310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.229253 seconds.
-  path: Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png
-  artifactKey: Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/Custom Edited - Super Smash Bros Customs - Master Hand Crazy Hand Kirbys Adventure-Style.png using Guid(c1ca2aa9c41c94586883c2f8224c5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f70437eaca5e8468af8a8efd0a738bc') in 0.025730 seconds 
-  Import took 0.062626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.484997 seconds.
-  path: Assets/Resources/手.png
-  artifactKey: Guid(a1ffbb22537e24c7da88210753700f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/手.png using Guid(a1ffbb22537e24c7da88210753700f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58d2e371aa15d1622594d02aa89df1d') in 0.022304 seconds 
-  Import took 0.038062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.541869 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd894ab880b960d2b9ddd3724444909f5') in 0.002439 seconds 
-  Import took 0.006196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 727.576659 seconds.
-  path: Assets/Resources/焊接美术资源/未标题-1.psd
-  artifactKey: Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/未标题-1.psd using Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917e03fb86da92b504ede7a8e669a7f0') in 0.273352 seconds 
-  Import took 0.284796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004883 seconds.
-  path: Assets/Resources/焊接美术资源/未标题-1.psd
-  artifactKey: Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源/未标题-1.psd using Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917e03fb86da92b504ede7a8e669a7f0') in 0.017598 seconds 
-  Import took 0.021234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.168041 seconds.
-  path: Assets/Resources/焊接美术资源
-  artifactKey: Guid(9e3f14a2016594352bd8329c11b483e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接美术资源 using Guid(9e3f14a2016594352bd8329c11b483e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412a6b2cbafbdb20b18b5c04d420dd27') in 0.003109 seconds 
-  Import took 0.018958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.383185 seconds.
-  path: Assets/Resources/焊接资源
-  artifactKey: Guid(9e3f14a2016594352bd8329c11b483e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源 using Guid(9e3f14a2016594352bd8329c11b483e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b993bbee0ac644268fc09c0bd0dd8775') in 0.001131 seconds 
-  Import took 0.004690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.655395 seconds.
-  path: Assets/Resources/电路迷宫资源
-  artifactKey: Guid(faebec5e2c6fc4812823dd030bd095d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/电路迷宫资源 using Guid(faebec5e2c6fc4812823dd030bd095d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d1090366ff8fb5615bfc38db2e6901') in 0.001047 seconds 
-  Import took 0.004577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.916000 seconds.
-  path: Assets/Resources/Prefabs/hand.prefab
-  artifactKey: Guid(b4ffdbc0b9fcd4120be32905090d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/hand.prefab using Guid(b4ffdbc0b9fcd4120be32905090d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8d0ca32e572935846f832d2cb1c135') in 0.755332 seconds 
-  Import took 0.766168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.224108 seconds.
-  path: Assets/Resources/Prefabs/焊接手.prefab
-  artifactKey: Guid(b4ffdbc0b9fcd4120be32905090d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/焊接手.prefab using Guid(b4ffdbc0b9fcd4120be32905090d2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfc22087c5d06c65aee5c1b9e6785bb') in 0.020044 seconds 
-  Import took 0.025356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.262371 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc8ffb9e9eee1994362bfa90e0024dc') in 0.012965 seconds 
-  Import took 0.029558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010729 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc8ffb9e9eee1994362bfa90e0024dc') in 0.001288 seconds 
-  Import took 0.004045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.222011 seconds.
-  path: Assets/Resources/焊接资源/电路板png
-  artifactKey: Guid(e3939593bd4eb4b769c0ec7b5bb7b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/电路板png using Guid(e3939593bd4eb4b769c0ec7b5bb7b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab93bf76845696280a0e43fbe4adf3f5') in 0.007983 seconds 
-  Import took 0.021515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.927255 seconds.
-  path: Assets/Resources/焊接资源/未标题-2.psd
-  artifactKey: Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-2.psd using Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2205a31e0bca5620e5059ca59079a5d9') in 0.066484 seconds 
-  Import took 0.070167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.854454 seconds.
-  path: Assets/Resources/焊接资源/电路板.png
-  artifactKey: Guid(e3939593bd4eb4b769c0ec7b5bb7b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/电路板.png using Guid(e3939593bd4eb4b769c0ec7b5bb7b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b2d820c5f0a3d00bed3c3446c26b9e') in 0.085313 seconds 
-  Import took 0.091054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.441752 seconds.
-  path: Assets/Resources/焊接资源/未标题-2.png
-  artifactKey: Guid(79168fdc91dac431a9190237f10c4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-2.png using Guid(79168fdc91dac431a9190237f10c4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bddc316c2dc2c62328ccb7a2ac54ff') in 0.040928 seconds 
-  Import took 0.070736 seconds .
-
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd9b709ef74e88887d7ec5291a03ff8') in 0.224375 seconds 
+  Import took 0.227899 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2217ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1887ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (997ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (754ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 215.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 1.988417 ms (FindLiveObjects: 0.175167 ms CreateObjectMapping: 0.046666 ms MarkObjects: 1.652667 ms  DeleteObjects: 0.113083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.288725 seconds.
+  path: Assets/Scripts/HandController.cs
+  artifactKey: Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandController.cs using Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ff59fa1a89c35fd1037a17c3cd7074') in 0.008885 seconds 
+  Import took 0.012228 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2580ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2123ms)
+			LoadAssemblies (343ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (839ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 3.728917 ms (FindLiveObjects: 0.239166 ms CreateObjectMapping: 0.061042 ms MarkObjects: 3.295292 ms  DeleteObjects: 0.131916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125.269060 seconds.
+  path: Assets/Scripts/HandController.cs
+  artifactKey: Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandController.cs using Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f7dd84453b8618d642eb24b1cc746') in 0.034190 seconds 
+  Import took 0.073200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2295ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1947ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1016ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (768ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.5 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 3.355333 ms (FindLiveObjects: 0.252459 ms CreateObjectMapping: 0.048834 ms MarkObjects: 2.916959 ms  DeleteObjects: 0.135625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 312.481017 seconds.
+  path: Assets/Scripts/HandController.cs
+  artifactKey: Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandController.cs using Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210e1cb0bd74d00b9d38f3e4a5f1533d') in 0.027425 seconds 
+  Import took 0.039783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.441613 seconds.
+  path: Assets/Scripts/HandController1.cs
+  artifactKey: Guid(148916999c81c408c8f97fe340d01e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandController1.cs using Guid(148916999c81c408c8f97fe340d01e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2bd335c17b444a4ccb271723a4739d') in 0.009702 seconds 
+  Import took 0.021539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006652 seconds.
+  path: Assets/Scripts/HandController1.cs
+  artifactKey: Guid(148916999c81c408c8f97fe340d01e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandController1.cs using Guid(148916999c81c408c8f97fe340d01e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2bd335c17b444a4ccb271723a4739d') in 0.003480 seconds 
+  Import took 0.007446 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.578 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2598ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2257ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (929ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (63ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 6.185792 ms (FindLiveObjects: 0.342542 ms CreateObjectMapping: 0.082292 ms MarkObjects: 5.343667 ms  DeleteObjects: 0.411375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2530ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (97ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2144ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (871ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.146208 ms (FindLiveObjects: 0.220666 ms CreateObjectMapping: 0.050792 ms MarkObjects: 1.732542 ms  DeleteObjects: 0.141083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2358ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2006ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1052ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (801ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.1 MB.
+System memory in use after: 217.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2718.
+Total: 1.991375 ms (FindLiveObjects: 0.220333 ms CreateObjectMapping: 0.049958 ms MarkObjects: 1.595334 ms  DeleteObjects: 0.124834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96.313803 seconds.
+  path: Assets/Scripts/IronHandController.cs
+  artifactKey: Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IronHandController.cs using Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6491ebc278b75cdba553fb7be6ab9b7c') in 0.029780 seconds 
+  Import took 0.046148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003168 seconds.
+  path: Assets/Scripts/IronHandController.cs
+  artifactKey: Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IronHandController.cs using Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6491ebc278b75cdba553fb7be6ab9b7c') in 0.002216 seconds 
+  Import took 0.005928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2544ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2198ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (945ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.4 MB.
+System memory in use after: 217.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 3.479833 ms (FindLiveObjects: 0.335917 ms CreateObjectMapping: 0.053083 ms MarkObjects: 2.926709 ms  DeleteObjects: 0.162000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.528293 seconds.
+  path: Assets/Scripts/HandController.cs
+  artifactKey: Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandController.cs using Guid(cc0103a4f00e0426285e2462868b74ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e646c50307083fed279fca4b5fcbd8ad') in 0.014077 seconds 
+  Import took 0.017298 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find Tools for Unity bridge dll for Visual Studio for Mac /Applications/Visual Studio.app
+Mono: successfully reloaded assembly
+- Completed reload, in  2.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2526ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2175ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (431ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (825ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.7 MB.
+System memory in use after: 217.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 3.193750 ms (FindLiveObjects: 0.303625 ms CreateObjectMapping: 0.063500 ms MarkObjects: 2.630542 ms  DeleteObjects: 0.194000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find Tools for Unity bridge dll for Visual Studio for Mac /Applications/Visual Studio.app
+Mono: successfully reloaded assembly
+- Completed reload, in  2.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2388ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2030ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (285ms)
+				ProcessInitializeOnLoadAttributes (794ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.9 MB.
+System memory in use after: 218.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 2.237250 ms (FindLiveObjects: 0.226541 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.821000 ms  DeleteObjects: 0.138208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2352ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2019ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1095ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (801ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2734.
+Total: 2.489208 ms (FindLiveObjects: 0.235542 ms CreateObjectMapping: 0.052666 ms MarkObjects: 2.056417 ms  DeleteObjects: 0.142792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2367ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2025ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (836ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.4 MB.
+System memory in use after: 218.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2738.
+Total: 1.791208 ms (FindLiveObjects: 0.146291 ms CreateObjectMapping: 0.043417 ms MarkObjects: 1.487834 ms  DeleteObjects: 0.112583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
