@@ -1,0 +1,2 @@
+/Users/m/Irongarbage/Client/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+/Users/m/Irongarbage/Client/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache

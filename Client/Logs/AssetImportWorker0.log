@@ -12,112 +12,112 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54719
+49782
 Successfully changed project path to: /Users/m/Irongarbage/Client
 /Users/m/Irongarbage/Client
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/m/Irongarbage/Client/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-23 21:45:31.957 Unity[3246:77745] (null) preferred device: Apple M1 (high power)
-2021-11-23 21:45:31.957 Unity[3246:77745] Metal devices available: 1
-2021-11-23 21:45:31.957 Unity[3246:77745] 0: Apple M1 (high power)
-2021-11-23 21:45:31.958 Unity[3246:77745] Using device Apple M1 (high power)
+2021-11-25 21:43:19.040 Unity[1649:32329] (null) preferred device: Apple M1 (high power)
+2021-11-25 21:43:19.040 Unity[1649:32329] Metal devices available: 1
+2021-11-25 21:43:19.040 Unity[1649:32329] 0: Apple M1 (high power)
+2021-11-25 21:43:19.040 Unity[1649:32329] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56246
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56649
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001616 seconds.
+Registered in 0.001539 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 56.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.485 seconds
+- Completed reload, in  2.191 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2485ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (2191ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (193ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (544ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (493ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004201 seconds.
+Registered in 0.003325 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 55.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.420 seconds
+- Completed reload, in  2.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2423ms)
-		BeginReloadAssembly (266ms)
+	ReloadAssembly (2296ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
+			DisableScriptedObjects (34ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (2068ms)
-			LoadAssemblies (215ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1955ms)
+			LoadAssemblies (209ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (1137ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1059ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (789ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.14f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2260 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.5 MB.
+System memory in use before: 212.4 MB.
+System memory in use after: 212.4 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2694.
-Total: 2.598708 ms (FindLiveObjects: 0.389125 ms CreateObjectMapping: 0.061417 ms MarkObjects: 1.867750 ms  DeleteObjects: 0.274500 ms)
+Total: 1.752666 ms (FindLiveObjects: 0.131167 ms CreateObjectMapping: 0.044917 ms MarkObjects: 1.455750 ms  DeleteObjects: 0.119916 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -131,177 +131,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/练习用.unity
-  artifactKey: Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/练习用.unity using Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05db23c224251e09b3a7a2692cfaec37') in 0.021878 seconds 
-  Import took 0.025590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.831661 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b04d4dac1d9034839b88e399e15aea0') in 0.007779 seconds 
-  Import took 0.026451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 271.550497 seconds.
-  path: Assets/Resources/焊接资源/未标题-1.psd
-  artifactKey: Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-1.psd using Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b3c5b5af9a510225a3ea7037b1c3c1') in 0.529367 seconds 
-  Import took 0.541961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.246165 seconds.
-  path: Assets/Resources/焊接资源/未标题-2.png
-  artifactKey: Guid(79168fdc91dac431a9190237f10c4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-2.png using Guid(79168fdc91dac431a9190237f10c4993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f43881639a5a9105f732971eb64022') in 0.598612 seconds 
-  Import took 0.619408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.309469 seconds.
-  path: Assets/Resources/焊接资源/未标题-2.psd
-  artifactKey: Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-2.psd using Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93449ed6023b54146df3b4a417d5ed92') in 0.031846 seconds 
-  Import took 0.050691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.884148 seconds.
   path: Assets/Scripts/IronHandController.cs
   artifactKey: Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/IronHandController.cs using Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53382dc0812fa1b77a85dea0716c6ca') in 1.111361 seconds 
-  Import took 1.124336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.421795 seconds.
-  path: Assets/Scenes/1.unity
-  artifactKey: Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1.unity using Guid(7b2cee528605c4734ab7817595604235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf91188e6f5ec87cb595c70c097875d') in 0.009295 seconds 
-  Import took 0.043641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.200252 seconds.
-  path: Assets/Scenes/练习用.unity
-  artifactKey: Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/练习用.unity using Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11e1fd2d6965b0a3111ff4e191b3309') in 0.001599 seconds 
-  Import took 0.006081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.517553 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1cfe5466b2335d5b114b585875174e') in 0.001230 seconds 
-  Import took 0.005130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.656770 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10d6c876779604cbcdc170982fa80b2') in 0.003843 seconds 
-  Import took 0.018394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 417.786839 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bdda9d21f6505995e2c15bcd4a86df') in 0.006811 seconds 
-  Import took 0.019297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.981042 seconds.
-  path: Assets/Scenes/焊接游戏.unity
-  artifactKey: Guid(6197c70c60bfc4fe1b327d05518cb264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏.unity using Guid(6197c70c60bfc4fe1b327d05518cb264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39607c4686aad5267eb501d8210ea3d0') in 0.005920 seconds 
-  Import took 0.043010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.206043 seconds.
-  path: Assets/Scenes/焊接游戏场景.unity
-  artifactKey: Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/焊接游戏场景.unity using Guid(e7635d928052342839b2163c21fe5c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b206c4910714e243bb73d59b0459eb') in 0.002186 seconds 
-  Import took 0.008010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.882370 seconds.
-  path: Assets/Resources/焊接资源/未标题-1.psd
-  artifactKey: Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-1.psd using Guid(43894f193613c4e7d83ffd54d0be95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4e66471c38f09e96f8bbb4b98dfc91') in 0.029554 seconds 
-  Import took 0.050104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.935881 seconds.
-  path: Assets/Resources/焊接资源/未标题-2.psd
-  artifactKey: Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-2.psd using Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3aeb154d6eb38963014a3bc04e2550') in 0.029680 seconds 
-  Import took 0.049098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 160.331286 seconds.
-  path: Assets/Resources/焊接资源/未标题-2.psd
-  artifactKey: Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/焊接资源/未标题-2.psd using Guid(0d119da89c83c4d0dac42b1e62fc1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fb48aa7ef9b776b170f32e8f6bdb59') in 0.031451 seconds 
-  Import took 0.060065 seconds .
+Start importing Assets/Scripts/IronHandController.cs using Guid(5f18caa5cbe8e447aabf3cfaedbd8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726fa25b799ef42d41df45a6d4908e74') in 0.990707 seconds 
+  Import took 0.993366 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004851 seconds.
+Registered in 0.003595 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.334 seconds
+- Completed reload, in  2.094 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2335ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (2094ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (40ms)
+			DisableScriptedObjects (37ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (2005ms)
-			LoadAssemblies (204ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1807ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (1134ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (968ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (858ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (44ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.6 MB.
+System memory in use before: 216.7 MB.
+System memory in use after: 216.7 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 1.742250 ms (FindLiveObjects: 0.172958 ms CreateObjectMapping: 0.045125 ms MarkObjects: 1.423708 ms  DeleteObjects: 0.099459 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 1.972542 ms (FindLiveObjects: 0.106417 ms CreateObjectMapping: 0.043375 ms MarkObjects: 1.698125 ms  DeleteObjects: 0.123500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

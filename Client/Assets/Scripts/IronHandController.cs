@@ -11,11 +11,7 @@ public class IronHandController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void OnMyDrag()
+    public void Update()
     {
         transform.position = Input.mousePosition;
     }
