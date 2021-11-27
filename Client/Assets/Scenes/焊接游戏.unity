@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 865824094}
   - component: {fileID: 865824096}
   - component: {fileID: 865824095}
-  m_Layer: 4
+  m_Layer: 5
   m_Name: hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1959031074}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 1952184431}
   - component: {fileID: 1952184430}
   - component: {fileID: 1952184429}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hanjieParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -893,7 +893,7 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 0
+  looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -962,7 +962,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1131,7 +1131,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 25
+      scalar: 15
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5597,7 +5597,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1959031074}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1959031073
 GameObject:
@@ -5610,7 +5610,7 @@ GameObject:
   - component: {fileID: 1959031074}
   - component: {fileID: 1959031076}
   - component: {fileID: 1959031075}
-  m_Layer: 4
+  m_Layer: 5
   m_Name: handctrl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5628,8 +5628,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 865824094}
   - {fileID: 1952184431}
+  - {fileID: 865824094}
   m_Father: {fileID: 1871369618}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5645,7 +5645,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959031073}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f18caa5cbe8e447aabf3cfaedbd8397, type: 3}
   m_Name: 
