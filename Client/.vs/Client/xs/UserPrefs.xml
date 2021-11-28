@@ -1,17 +1,15 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{12F44184-A422-5F27-22E6-507969043F15}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/IronHandController.cs">
     <Files>
-      <File FileName="Assets/Scripts/IronHandController.cs" Line="17" Column="104" />
+      <File FileName="Assets/Scripts/IronHandController.cs" Line="24" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Client" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="IronHandController.cs" selected="True" />
-                </Node>
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="IronHandController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,6 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0bc1062-06a2-47c9-9a81-b2c6eee794b4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
