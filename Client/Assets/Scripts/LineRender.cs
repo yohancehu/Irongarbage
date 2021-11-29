@@ -7,15 +7,21 @@ public class LineRender: MonoBehaviour {
 	int index;
 	//带有LineRender物体
 	public GameObject target;
-    // private GameObject[] Objs;暂时没有作用
+	// private GameObject[] Objs;暂时没有作用
+	private RectTransform _paintCanvas;
 	void Start () 
     {
+		_paintCanvas = GameObject.FindGameObjectWithTag("PaintCanvas").transform as RectTransform;
 	}
 	// Update is called once per frame
 	void Update () 
     {
 
-		if (Input.GetMouseButtonDown(0))
+		if (!RectTransformUtility.RectangleContainsScreenPoint(_paintCanvas, Input.mousePosition))
+        {
+			return;
+        }
+			if (Input.GetMouseButtonDown(0))
         {
 			//实例化对象
 		    clone=(GameObject)Instantiate(target,target.transform.position,Quaternion.identity);
@@ -36,6 +42,7 @@ public class LineRender: MonoBehaviour {
 		}
 		if(Input.GetMouseButton(0))
 		{
+            
 			//每一帧检测，按下鼠标的时间越长，计数越多
             if (index<999)//防止超出范围（感觉后续需要改进）
             {
@@ -46,6 +53,7 @@ public class LineRender: MonoBehaviour {
 			    line.SetPosition(index-1,Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,3)));
                 //     Object.Destroy(Objs[i])
             }
+            
 		}
  
 	}
