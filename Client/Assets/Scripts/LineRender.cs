@@ -34,8 +34,8 @@ public class LineRender: MonoBehaviour {
 			line.startColor = Color.red;
             line.endColor = Color.blue;
 			//设置起始和结束的宽度
-			line.startWidth = 3.0f;
-        	line.endWidth = 3.0f;
+			line.startWidth = 10.0f;
+        	line.endWidth = 10.0f;
 			//计数
             index = 1;
  			line.SetPosition(index-1,Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,3)));
