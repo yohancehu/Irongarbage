@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{12F44184-A422-5F27-22E6-507969043F15}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LineRender.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Timer.cs">
     <Files>
       <File FileName="Assets/Scripts/LineRender.cs" Line="37" Column="24" />
-      <File FileName="Assets/Scripts/IronHandController.cs" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/IronHandController.cs" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="5" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="Client" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="LineRender.cs" selected="True" />
+                <Node name="Timer.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9d1a605e-1888-4d54-988e-79d2621d2f74" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2691bce6-06ef-412d-806d-0bec45628614" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
