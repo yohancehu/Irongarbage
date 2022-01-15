@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
 {
-    public float jumpForce = 400f;                          // 弹跳力
+    public float jumpForce = 200f;                          // 弹跳力
     public bool canAirControl = false;                      // 在空中时，是否能控制
     public LayerMask groundMask;                            // 定义哪一个Layer是地面
     public Transform m_GroundCheck;                         // 用于判定地面的空物体
