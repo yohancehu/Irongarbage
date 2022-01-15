@@ -58,12 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Game/Dialog/DialogView.cs" />
     <Compile Include="Assets/Scripts/Game/Dialog/BranchBtnView.cs" />
+    <Compile Include="Assets/Scripts/Timer.cs" />
     <Compile Include="Assets/Scripts/Common/CommonDefines.cs" />
     <Compile Include="Assets/Scripts/Game/Dialog/DialogManager.cs" />
     <Compile Include="Assets/Scripts/Common/HandleResult/IHandleResult.cs" />
     <Compile Include="Assets/Scripts/Common/Message/MessageBase.cs" />
     <Compile Include="Assets/Scripts/Common/Resources/ResourcesManager.cs" />
     <Compile Include="Assets/Scripts/Game/UI/UIManager.cs" />
+    <Compile Include="Assets/Scripts/LoadGame.cs" />
     <Compile Include="Assets/Scripts/LineRender.cs" />
     <Compile Include="Assets/Scripts/Game/UI/UIRoot.cs" />
     <Compile Include="Assets/Scripts/Data/TableDefines.cs" />
@@ -82,12 +84,27 @@
     <Compile Include="Assets/Scripts/Common/Extensions/ExtensionMethods.cs" />
     <Compile Include="Assets/Scripts/IronHandController.cs" />
     <Compile Include="Assets/Scripts/Common/Singleton/Singleton.cs" />
-    <Compile Include="Assets/Scripts/Common/Config/TableManager.cs" />
-    <Compile Include="Assets/Scripts/Timer.cs" />
     <Compile Include="Assets/Scripts/LoadClose.cs" />
-    <Compile Include="Assets/Scripts/LoadGame.cs" />
+    <Compile Include="Assets/Scripts/Common/Config/TableManager.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/Frog.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/CharacterController2D.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/BossPosition.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/Opossum.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/Dog.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/ItemBox.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/GameMode.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/DogDie.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/ItemMove.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/DestroyEvent.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/RoleDie.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/Item.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/SpawnManager.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/DestroyOnFall.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/BGMusic.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/bl旺财/ProjectSettings/ProjectVersion.txt" />
     <None Include="Assets/Resources/Font/digital_7/readme.txt" />
   </ItemGroup>
   <ItemGroup>
