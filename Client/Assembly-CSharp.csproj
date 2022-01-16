@@ -102,6 +102,7 @@
     <Compile Include="Assets/bl旺财/Assets/Scripts/SpawnManager.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/DestroyOnFall.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/BGMusic.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/TrapPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/bl旺财/ProjectSettings/ProjectVersion.txt" />
