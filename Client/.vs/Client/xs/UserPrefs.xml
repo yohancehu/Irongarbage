@@ -9,12 +9,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Client" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="bl旺财" expanded="True">
                 <Node name="Assets" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="CharacterController2D.cs" selected="True" />
-                  </Node>
+                  <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True" />
@@ -26,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e8cd4668-85d7-4ca7-92be-d0f690c63b82" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="526a6fa6-b05e-4ff6-adf5-981f924e4a3e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/m/Irongarbage/Client/Assets/bl旺财/Assets/Scripts/TrapPlatform.cs" relfile="Assets/bl旺财/Assets/Scripts/TrapPlatform.cs" line="25" column="1" />
