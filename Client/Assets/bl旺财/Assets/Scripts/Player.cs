@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
 
                         move = Input.GetAxis("Horizontal2");
                         jump = Input.GetButton("Jump2");
-                        break;
+                        break;  
                 }
             }
             else

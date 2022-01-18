@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{12F44184-A422-5F27-22E6-507969043F15}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/bl旺财/Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/bl旺财/Assets/Scripts/TrapPlatform.cs">
     <Files>
-      <File FileName="Assets/bl旺财/Assets/Scripts/CharacterController2D.cs" Line="61" Column="21" />
-      <File FileName="Assets/bl旺财/Assets/Scripts/Player.cs" Line="89" Column="16" />
+      <File FileName="Assets/bl旺财/Assets/Scripts/CharacterController2D.cs" Line="6" Column="31" />
+      <File FileName="Assets/bl旺财/Assets/Scripts/Player.cs" />
+      <File FileName="Assets/bl旺财/Assets/Scripts/TrapPlatform.cs" Line="25" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Client" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="bl旺财" expanded="True">
                 <Node name="Assets" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="Player.cs" selected="True" />
-                  </Node>
+                  <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True" />
@@ -25,9 +24,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e8cd4668-85d7-4ca7-92be-d0f690c63b82" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="526a6fa6-b05e-4ff6-adf5-981f924e4a3e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/m/Irongarbage/Client/Assets/bl旺财/Assets/Scripts/TrapPlatform.cs" relfile="Assets/bl旺财/Assets/Scripts/TrapPlatform.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
