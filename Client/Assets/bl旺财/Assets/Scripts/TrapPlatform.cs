@@ -35,6 +35,5 @@ public class TrapPlatform : MonoBehaviour
 
     void DestroyTrapPlatform()
     {
-        Destroy(gameObject);
     }
 }

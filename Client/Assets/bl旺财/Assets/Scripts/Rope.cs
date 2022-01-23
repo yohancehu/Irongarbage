@@ -8,6 +8,7 @@ public class Rope : MonoBehaviour
     public Rigidbody2D rb2;
     public GameObject ropeDisplay;
 
+    public float breakForce = 200;
     public float force = 1f;
     public float minDistance = 0f;
     public float maxDistance = 10f;
@@ -25,6 +26,14 @@ public class Rope : MonoBehaviour
         }
         if (Vector3.Distance(pos1, pos2) > maxDistance)
         {
+            if( Vector3.Dot((pos1 - mid).normalized, rb1.velocity) > breakForce|| Vector3.Dot((pos2 - mid).normalized, rb2.velocity) > breakForce)
+            {
+                Destroy(ropeDisplay.gameObject);
+                Destroy(gameObject);
+                GameObject prefab = Resources.Load<GameObject>("Prefabs/Lose");
+                Instantiate(prefab,UIRoot.Instance.transform);
+                return;
+            }
             rb1.AddForce((mid - pos1).normalized * force);
             rb2.AddForce((mid - pos2).normalized * force);
         }
