@@ -112,6 +112,7 @@
   <ItemGroup>
     <None Include="Assets\bl旺财\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Resources\Font\digital_7\readme.txt" />
+    <None Include="Assets\bl旺财\Assets\Resources\Sprites\offset.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
