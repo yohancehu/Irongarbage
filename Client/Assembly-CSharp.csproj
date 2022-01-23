@@ -66,6 +66,7 @@
     <Compile Include="Assets/Scripts/Game/Dialog/DialogManager.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/GameMode.cs" />
     <Compile Include="Assets/Scripts/Common/HandleResult/IHandleResult.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/MovingPlatform.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/RoleDie.cs" />
     <Compile Include="Assets/Scripts/Common/Message/MessageBase.cs" />
     <Compile Include="Assets/Scripts/Common/Resources/ResourcesManager.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets/Scripts/Common/Message/MessageLoop.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/ItemBox.cs" />
     <Compile Include="Assets/Scripts/SimpleCameraController.cs" />
+    <Compile Include="Assets/Position.cs" />
     <Compile Include="Assets/Scripts/Common/Message/MessageType.cs" />
     <Compile Include="Assets/Scripts/Common/Singleton/MonoSingleton.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/DestroyEvent.cs" />
@@ -103,7 +105,7 @@
     <Compile Include="Assets/bl旺财/Assets/Scripts/Opossum.cs" />
     <Compile Include="Assets/Scripts/Common/Config/TableManager.cs" />
     <Compile Include="Assets/bl旺财/Assets/Scripts/ItemMove.cs" />
-    <Compile Include="Assets/bl旺财/Assets/Scripts/MovingPlatform.cs" />
+    <Compile Include="Assets/bl旺财/Assets/Scripts/Rope.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/bl旺财/ProjectSettings/ProjectVersion.txt" />
