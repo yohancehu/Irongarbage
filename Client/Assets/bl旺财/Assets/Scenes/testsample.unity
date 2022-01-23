@@ -1206,7 +1206,7 @@ MonoBehaviour:
   rb1: {fileID: 405171006}
   rb2: {fileID: 1000833077}
   ropeDisplay: {fileID: 353280243}
-  force: 5
+  force: 300
   minDistance: 0
   maxDistance: 5
 --- !u!4 &831868706
