@@ -6,39 +6,59 @@ public class Rope : MonoBehaviour
 {
     public Rigidbody2D rb1;
     public Rigidbody2D rb2;
-    public GameObject ropeDisplay;
+    public SpriteRenderer ropeDisplay;
 
+    public float breakLimitTime = 5f;
     public float breakForce = 200;
     public float force = 1f;
     public float minDistance = 0f;
     public float maxDistance = 10f;
+
+    private bool _isBreak;
+    private float _timer;
 
     private void FixedUpdate()
     {
         Vector3 pos1 = rb1.transform.position;
         Vector3 pos2 = rb2.transform.position;
         Vector3 mid = (pos1 + pos2) / 2;
-
-        if (Vector3.Distance(pos1, pos2) < minDistance)
+        bool isBreak = Vector3.Distance(pos1, pos2) > maxDistance;
+        if (!_isBreak && isBreak)
         {
-            rb1.AddForce((pos1 - mid).normalized * force);
-            rb2.AddForce((pos1 - mid).normalized * force);
+            _timer = breakLimitTime;
         }
-        if (Vector3.Distance(pos1, pos2) > maxDistance)
+        _isBreak = isBreak;
+
+        if (_isBreak)
         {
-            if( Vector3.Dot((pos1 - mid).normalized, rb1.velocity) > breakForce|| Vector3.Dot((pos2 - mid).normalized, rb2.velocity) > breakForce)
+            if (_timer < 0)
             {
                 Destroy(ropeDisplay.gameObject);
                 Destroy(gameObject);
                 GameObject prefab = Resources.Load<GameObject>("Prefabs/Lose");
-                Instantiate(prefab,UIRoot.Instance.transform);
+                Instantiate(prefab, UIRoot.Instance.transform);
                 return;
             }
-            rb1.AddForce((mid - pos1).normalized * force);
-            rb2.AddForce((mid - pos2).normalized * force);
+
+            _timer -= Time.fixedDeltaTime;
+            ropeDisplay.gameObject.SetActive(false);
         }
-        ropeDisplay.transform.position = mid;
-        ropeDisplay.transform.up = rb1.transform.position - rb2.transform.position;
-        ropeDisplay.transform.localScale = new Vector3(1, Vector3.Distance(rb1.transform.position, rb2.transform.position), 1);
+        else
+        {
+
+            if (Vector3.Distance(pos1, pos2) < minDistance)
+            {
+                rb1.AddForce((pos1 - mid).normalized * force);
+                rb2.AddForce((pos1 - mid).normalized * force);
+            }
+            ropeDisplay.transform.position = mid;
+            ropeDisplay.transform.up = rb1.transform.position - rb2.transform.position;
+            ropeDisplay.size = new Vector2(0.8f, Vector2.Distance(rb1.transform.position, rb2.transform.position));
+
+            ropeDisplay.gameObject.SetActive(true);
+        }
+
     }
+
+
 }
